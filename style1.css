@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,800;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#image {
+    align-content: center;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: #edeef0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+#home {
+    background-color: yellow;
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+#friends {
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+#friends-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #f05136;
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background: #f05136;
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    color: white;
+
+}
+
+.link-button-hover {
+    color: white;
+}
+
+#foot-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+#foot-links ul {
+    list-style: none;
+}
+
+#foot-link {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#policy-foot {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: left;
+    font-size: medium;
+}
